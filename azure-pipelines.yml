@@ -7,8 +7,8 @@ trigger: none
 pr: none
 
 variables:
-  AzureServiceConnection: 'AzureServiceConnection'
-  imageRepository: 'classictoyaml'
+  AzureServiceConnection: 'Myserviceconnection'
+  imageRepository: 'dofryproject'
   containerRegistry: 'dufrypoc1.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildNumber)'
